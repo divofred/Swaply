@@ -1,0 +1,30 @@
+{
+  "name": "swaply",
+  "version": "1.0.0",
+  "description": "Convert your cryptocurrencies",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm jest",
+    "start": "node dist/server.ts",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/server.js\""
+  },
+  "keywords": [
+    "crypto",
+    "node",
+    "binance"
+  ],
+  "author": "Fredrick Emmanuel (divofred)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.2",
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.1.6"
+  }
+}

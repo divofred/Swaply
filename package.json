@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "npm jest",
-    "start": "node dist/server.ts",
+    "start": "npx tsc && node dist/server.js",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/server.js\""
   },
   "keywords": [
